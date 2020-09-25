@@ -144,8 +144,8 @@ $(document).ready(function() {
                              sound.stop();
                           });
                     });
-		//			
-					SC.stream('/tracks/245420682',function(sound){
+					
+					SC.stream('/tracks/268690738',function(sound){
                       $('#start-t14').click(function(e) {
                              e.preventDefault();
                              sound.start();
@@ -155,8 +155,8 @@ $(document).ready(function() {
                              sound.stop();
                           });
                     });
-		//			
-					SC.stream('/tracks/56021429',function(sound){
+					
+					SC.stream('/tracks/26197559',function(sound){
                       $('#start-t15').click(function(e) {
                              e.preventDefault();
                              sound.start();
@@ -200,7 +200,7 @@ $(document).ready(function() {
                           });
                     });
 					
-					SC.stream('/tracks/345528518',function(sound){
+					SC.stream('/tracks/511063686',function(sound){
                       $('#start-t19').click(function(e) {
                              e.preventDefault();
                              sound.start();
@@ -244,7 +244,7 @@ $(document).ready(function() {
                           });
                     });
 					
-					SC.stream('/tracks/105584272',function(sound){
+					SC.stream('/tracks/41431027',function(sound){
                       $('#start-t23').click(function(e) {
                              e.preventDefault();
                              sound.start();
@@ -333,7 +333,7 @@ $(document).ready(function() {
                                   });
                             });
 							
-						SC.stream('/tracks/96141401',function(sound){
+						SC.stream('/tracks/93826215',function(sound){
                               $('#start-b6').click(function(e) {
                                      e.preventDefault();
                                      sound.start();
@@ -355,7 +355,7 @@ $(document).ready(function() {
                                   });
                             });
 							
-						SC.stream('/tracks/164513620',function(sound){
+						SC.stream('/tracks/347775363',function(sound){
                               $('#start-b8').click(function(e) {
                                      e.preventDefault();
                                      sound.start();
@@ -366,16 +366,7 @@ $(document).ready(function() {
                                   });
                             });
 							
-						SC.stream('/tracks/88805379',function(sound){
-                              $('#start-b8').click(function(e) {
-                                     e.preventDefault();
-                                     sound.start();
-                                   });
-                              $('#stop-b8').click(function(e) {
-                                     e.preventDefault();
-                                     sound.stop();
-                                  });
-                            });
+						
 							
 							
 //-------------------------------------------------------------------------------------------------------------------------
