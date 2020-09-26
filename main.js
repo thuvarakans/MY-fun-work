@@ -365,6 +365,29 @@ $(document).ready(function() {
                                      sound.stop();
                                   });
                             });
+	                         
+	                          SC.stream('/tracks/344962207',function(sound){
+                              $('#start-b9').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-b9').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
+	
+	                      
+	                          SC.stream('/tracks/709500637',function(sound){
+                              $('#start-b10').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-b10').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
 							
 						
 							
