@@ -390,8 +390,70 @@ $(document).ready(function() {
                             });
 							
 						
+//Meditation----------------------------------------------------------------------------------------------------------------------
+                  SC.stream('/tracks/898480729',function(sound){
+                        $('#start-m1').click(function(e) {
+                               e.preventDefault();
+                               sound.start();
+                             });
+                        $('#stop-m1').click(function(e) {
+                               e.preventDefault();
+                               sound.stop();
+                            });
+                      });
+                    SC.stream('/tracks/898477999',function(sound){
+                          $('#start-m2').click(function(e) {
+                                 e.preventDefault();
+                                 sound.start();
+                               });
+                          $('#stop-m2').click(function(e) {
+                                 e.preventDefault();
+                                 sound.stop();
+                              });
+                        });
+                       SC.stream('/tracks/898475401',function(sound){
+                            $('#start-m3').click(function(e) {
+                                   e.preventDefault();
+                                   sound.start();
+                                 });
+                            $('#stop-m3').click(function(e) {
+                                   e.preventDefault();
+                                   sound.stop();
+                                });
+                          });
+                         SC.stream('/tracks/898473169',function(sound){
+                              $('#start-m4').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-m4').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
 							
+						  SC.stream('/tracks/898471675',function(sound){
+                              $('#start-m5').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-m5').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
 							
-//-------------------------------------------------------------------------------------------------------------------------
-
+						SC.stream('/tracks/898470922',function(sound){
+                              $('#start-m6').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-m6').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
+				  
+//------------------------------------------------------------------------------------------------------------------------------------				  
+				  
 });
