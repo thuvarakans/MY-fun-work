@@ -276,7 +276,17 @@ $(document).ready(function() {
                              sound.stop();
                           });
                     });
-					
+				
+	                            SC.stream('/tracks/194012246',function(sound){
+                      $('#start-t26').click(function(e) {
+                             e.preventDefault();
+                             sound.start();
+                           });
+                      $('#stop-t26').click(function(e) {
+                             e.preventDefault();
+                             sound.stop();
+                          });
+                    });
 					
 					
 		
