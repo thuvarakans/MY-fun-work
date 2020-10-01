@@ -409,6 +409,17 @@ $(document).ready(function() {
                                      sound.stop();
                                   });
                             });
+	
+	                          SC.stream('/tracks/118534060',function(sound){
+                              $('#start-b12').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-b12').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
 							
 						
 //Meditation----------------------------------------------------------------------------------------------------------------------
