@@ -398,6 +398,17 @@ $(document).ready(function() {
                                      sound.stop();
                                   });
                             });
+	
+	                           SC.stream('/tracks/340268856',function(sound){
+                              $('#start-b11').click(function(e) {
+                                     e.preventDefault();
+                                     sound.start();
+                                   });
+                              $('#stop-b11').click(function(e) {
+                                     e.preventDefault();
+                                     sound.stop();
+                                  });
+                            });
 							
 						
 //Meditation----------------------------------------------------------------------------------------------------------------------
