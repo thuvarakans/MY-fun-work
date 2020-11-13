@@ -3,12 +3,12 @@
   "name": "Thuvarakan",
   "icons": [
     {
-      "src": "music-logo-design.jpg",
+      "src": "multimedia.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "music-logo-design.jpg",
+      "src": "multimedia.png",
       "type": "image/png",
       "sizes": "512x512"
     }
