@@ -1,3 +1,16 @@
+window.onload = () => {
+  'use strict';
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('./sw.js');
+  }
+}
+
+
+
+
+
 SC.initialize({
   client_id: '340f063c670272fac27cfa67bffcafc4'
 });
