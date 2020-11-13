@@ -3,18 +3,18 @@
   "name": "Maritimony",
   "icons": [
     {
-      "src": "images/heart-png-love-4.png",
+      "src": "music-logo-design.jpg",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/heart-png-love-4.png",
+      "src": "music-logo-design.jpg",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
   "lang": "en-US",
-  "start_url": "http://localhost:8080/",
+  "start_url": "https://thuvarakans.github.io/MY-fun-work-is-work/",
   "background_color": "#f2f2f2",
   "display": "standalone",
   "theme_color": "#dbdbdb"
