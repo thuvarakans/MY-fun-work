@@ -20,8 +20,21 @@
 
   gtag('config', 'G-JDNWY6EGG4');
 </script>
- 
- 
+ <!---------------------->
+<!-------------web push---------------->
+	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "c53c6f4d-4121-4c62-bb15-f3d0e7cfc835",
+      notifyButton: {
+        enable: true,
+      },
+    });
+  });
+</script>
+ <!------------------------------------->
  
  
  <meta name="viewport" content="width=device-width, initial-scale=1">
