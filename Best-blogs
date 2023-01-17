@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h2>Senzagro</h2>
+<ol>
+  <li>Coffee: <a href="https://www.w3schools.com">W3Schools</a> </li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+  
+<h2>SenzMate</h2>
+<ol>
+  <li>Coffee: <a href="https://www.w3schools.com">W3Schools</a> </li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol> 
+
+
+</body>
+</html>
